@@ -26,3 +26,27 @@ Ext.create('Ext.panel.Panel', {
 });
 ```
 >This code creates a panel with a vertical box layout, which arranges the items in a single column.
+
+**2.What is MVC and MVMM?**
+
+Ans : Model-View-Controller (MVC) and Model-View-ViewModel (MVVM) are both architectural patterns for designing software applications. Both patterns are designed to separate the user interface (UI) from the business logic of the application, making it easier to develop and maintain the application over time.
+
+MVC is a design pattern that separates an application into three main components: the model, the view, and the controller. The model represents the data and business logic of the application, the view represents the UI, and the controller serves as the intermediary between the model and the view.
+
+MVVM is a variation of MVC that was specifically designed for use with rich client-side applications, such as those built with WPF (Windows Presentation Foundation) or Ext JS. In MVVM, the view model acts as the intermediary between the view and the model, providing data-binding and other features to facilitate communication between the two.
+
+Both MVC and MVVM are popular patterns for building modern web applications, and both have their own strengths and weaknesses. In general, MVC is a good choice for applications with simple UI requirements, while MVVM is better suited to applications with more complex UI needs.
+
+**3.What is MVC Architecture?**
+
+Ans: Model-View-Controller (MVC) is an architectural pattern that separates an application into three main components: the model, the view, and the controller. These components are designed to work together to create a web application that is flexible, maintainable, and easy to develop.
+
+The model represents the data and business logic of the application. It is responsible for managing the data and performing any necessary calculations or processing.
+
+The view represents the user interface (UI) of the application. It is responsible for rendering the UI and presenting the data to the user.
+
+The controller is the intermediary between the model and the view. It receives user input and requests, and then uses the model to process these requests and generate the appropriate response. The controller then sends the response back to the view, which updates the UI to reflect the changes.
+
+MVC is a popular pattern for building modern web applications because it helps to separate the UI from the business logic of the application, making it easier to develop and maintain the application over time.
+
+
