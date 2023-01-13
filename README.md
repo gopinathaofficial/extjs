@@ -49,4 +49,22 @@ The controller is the intermediary between the model and the view. It receives u
 
 MVC is a popular pattern for building modern web applications because it helps to separate the UI from the business logic of the application, making it easier to develop and maintain the application over time.
 
+**4.How to communicate between crontrollers?**
+
+Ans: In ExtJS, there are several ways to communicate between controllers. Some of the most common methods include:
+
+Using a shared service: A shared service can be used to share data between controllers. This is a useful method when multiple controllers need to access the same data or when data needs to be passed between controllers.
+
+Using events: ExtJS controllers can fire and listen to events. This allows one controller to notify another controller of an event that has occurred. For example, a 'save' button click in one controller can fire an event that is listened to by another controller to update a grid.
+
+Using global events: ExtJS global events provide a way for different controllers to communicate with each other without the need for direct references. For example, one controller can fire a global event 'userloggedin' and another controller can listen to it.
+
+Using a parent-child relationship: Some controllers can have a parent-child relationship, where a parent controller has access to the child controller's methods and properties. This allows for easy communication between the two controllers.
+
+Using references: You can use references config in controller to get reference of other component and by using that component reference you can access other component methods and properties.
+
+Using ViewModel: You can use viewmodel to share data between different controllers.
+
+It depends on the specific use case, you can choose the most appropriate method for your application.
+
 
