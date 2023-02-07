@@ -67,4 +67,14 @@ Using ViewModel: You can use viewmodel to share data between different controlle
 
 It depends on the specific use case, you can choose the most appropriate method for your application.
 
+**5. How to generate Extjs application from SDK?**
+
+Ans: 
+Steps:
+1) Download the SDK and extract the zip file.
+2) sencha -sdk "SDK path" generate app modern or classic appname path where we need to generate the application 
+(eg:sencha -sdk "D:\hitachi\ext-7.5.1\ext-7.5.1" generate app modern sevenpointzero D:/hitachi/sevenpointzero).
+3)after generation run the app using **sencha app watch**
+
+
 
