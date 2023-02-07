@@ -78,5 +78,9 @@ Steps:
 
 3) after generation run the app using **sencha app watch**
 
+**5. How to generate Extjs application from Ext-gen?**
+
+Ans: Visit this site : https://docs.sencha.com/extjs/7.6.0/guides/using_systems/using_npm/cli_reference.html
+
 
 
